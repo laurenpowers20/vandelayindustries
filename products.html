@@ -4,23 +4,100 @@
 			<script src="jquery-2.1.4 copy.js"></script>
 			<style>
 
-				body {
+				html {
 					background-image: url(images/nyc.jpg);
 					background-repeat: no-repeat;
 					background-size: cover;
 					font-family: sans-serif;
 					text-align: center;
 					color:white;
-			}
+				}
+
+				.nav {
+					text-align: right;
+					height: 20px;
+					margin: 0 5px;
+				}
+				nav ul li {
+					list-style-type: none;
+					display: inline;
+					color: white;
+				}
+				nav ul li a {
+					text-decoration: none;
+					color: white;
+				}
+				nav ul li a:hover {
+					text-decoration: underline;
+					color: white;
+				}
+
+				img {
+					height: 200px;
+					border: 5px solid white;
+					margin: 5px;
+					border-radius: 15px;
+				}
+
+				.images {
+					width: 100%;
+					height: 500px;
+					text-align: center;
+					margin: 0 auto;
+				}
+
+				.header {
+					float:left;
+					text-align:center;
+					width:100%;
+/*					clear:both;*/
+				}
+
+				.photo {
+					float: left;
+					margin: 10px;
+				}
+
 
 			</style>
 		</head>
 		<title>Latex & Latex Related Products</title>
 		<body>
-				<div class="header">
+				<div class="nav">
+					<nav>
+						<ul>
+							<li><a href="contactus.html">Contact Us</a></li>
+							<li>|</li>
+							<li><a href="team2.html">Team</a></li>
+							<li>|</li>
+							<li><a href="index.html">Home</a></li>
+						</ul>
+					</nav>
+				</div>
+
+			<div class="header">
 				<h1>Products at Vandalay Industries</h1> 
 				<h3>The Selling of Latex and Latex Related products</h3>
 			</div>
+
+				<div class="images">	
+					<div class="photo"><img src="images/gloves.gif" onmouseover="this.src='images/scarydentist.jpg'" onmouseout="this.src='images/gloves.gif' "/><h3>Gloves</h3></div>
+
+					<div class ="photo"><img src="images/balloons.jpg" onmouseover="this.src='images/it.gif'" onmouseout="this.src='images/balloons.jpg' "/><h3>Balloons</h3></div>
+
+					<div class ="photo"><img src="images/bandaid.gif" onmouseover="this.src='images/bacon.jpg'" onmouseout="this.src='images/bandaid.gif' "/><h3>Band Aids</h3></div>
+
+					<div class ="photo"><img src="images/showercurtain.jpg" onmouseover="this.src='images/psycho.jpg'" onmouseout="this.src='images/showercurtain.jpg' "/><h3>Shower Curtains</h3></div>
+				</div>
+
+
+		<script type="text/javascript">
+
+    
+
+		</script>
+
+
 		</body>
 		</html>
 
